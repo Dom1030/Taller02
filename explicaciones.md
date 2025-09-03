@@ -1,22 +1,21 @@
-# Explicaciones del Taller de Paradigmas de Programación en JavaScript
+# Explicaciones Técnicas y Prácticas
 
-## Ejercicio 1: Gestión de estudiantes
+## ¿Por qué módulos separados?
+Para facilitar mantenimiento, extensión y reutilización, cada módulo tiene una responsabilidad concreta. Así el código es más claro y menos propenso a errores.
 
-Se aplicó el paradigma funcional usando métodos como `filter`, `map` y `reduce` para manipular arrays de objetos. Esto permite escribir código declarativo y evitar efectos secundarios.
+## Validaciones
+Se validan los datos antes de agregarlos para evitar inconsistencias y errores inesperados en la aplicación.
 
-## Ejercicio 2: Calculadora de productos
+## Filtrado
+El filtrado permite obtener solo la información relevante, por ejemplo, estudiantes de un curso concreto o productos de determinada categoría.
 
-Se implementó una clase `Product` para representar productos con propiedades y métodos. Se usó programación orientada a objetos para encapsular comportamiento y datos.
+## Transformación
+JSON es útil para guardar y compartir datos entre sistemas. Por eso se incluyen funciones para convertir entre objetos y JSON.
 
-## Ejercicio 3: Validación de datos
+## Pruebas
+Con `test.js` puedes verificar que todo funcione correctamente antes de integrar cambios.
 
-Se usó paradigma procedural con funciones independientes para validar distintos tipos de datos, facilitando la reutilización y claridad.
-
-## Ejercicio 4: Filtros avanzados
-
-Se aplicaron métodos funcionales para filtrar, agrupar y calcular estadísticas sobre arrays de productos, demostrando manipulación avanzada de datos.
-
-## Ejercicio 5: Transformación de datos
-
-Se transformaron los datos agregando nuevos campos y resúmenes usando `map` y `reduce`, manteniendo inmutabilidad y claridad en el código.
-
+## Futuras mejoras
+- Integrar persistencia en base de datos.
+- Añadir interfaz gráfica.
+- Mejorar las validaciones para soportar más casos.

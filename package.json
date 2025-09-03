@@ -1,11 +1,1 @@
-{
-  "name": "taller-paradigmas-js",
-  "version": "1.0.0",
-  "description": "Taller de paradigmas de programación en JavaScript",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"No tests specified\" && exit 0"
-  },
-  "author": "Estudiante de Ingeniería de Software",
-  "license": "MIT"
-}
+{"name": "taller02", "version": "1.0.0", "description": "Gestión de estudiantes y productos con utilidades de validación, filtrado y transformación.", "main": "index.js", "scripts": {"start": "node index.js", "test": "node test.js"}, "author": "Dom1030", "license": "MIT"}

@@ -1,0 +1,11 @@
+{
+  "name": "taller-paradigmas-js",
+  "version": "1.0.0",
+  "description": "Taller de paradigmas de programación en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Estudiante de Ingeniería de Software",
+  "license": "MIT"
+}

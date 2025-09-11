@@ -15,7 +15,3 @@ JSON es útil para guardar y compartir datos entre sistemas. Por eso se incluyen
 ## Pruebas
 Con `test.js` puedes verificar que todo funcione correctamente antes de integrar cambios.
 
-## Futuras mejoras
-- Integrar persistencia en base de datos.
-- Añadir interfaz gráfica.
-- Mejorar las validaciones para soportar más casos.
